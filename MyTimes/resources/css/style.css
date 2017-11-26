@@ -1,6 +1,19 @@
 /* The following code is for place holding*/
 
-h1 {
-  font-family: cursive;
-  font-size: 100px;
+.container {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-content: center;
+}
+
+.logo {
+  color: MediumAquamarine;
+}
+
+nav {
+  display: inline-block;
+  justify-content: center;
+  padding: 20px 10px;
 }

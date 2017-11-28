@@ -1,14 +1,31 @@
-/* The following code is for place holding*/
+/* The following code is for place holding
 
-.container {
+header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  align-content: center;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  position: fixed;
+  width: 575px;
+  z-index: 1;
+}
+
+.logo span {
+  display: inline-flex;
+  height: 17px;
+  width: auto;
 }
 
 .logo {
+  display: flex;
+  flex-grow: 1;
+  height: 60px;
+  padding-left: 30px;
+  width: auto;
+  align-items: center;
   color: MediumAquamarine;
 }
 
@@ -16,4 +33,7 @@ nav {
   display: inline-block;
   justify-content: center;
   padding: 20px 10px;
+  height: 17px;
+  width: auto;
 }
+*/

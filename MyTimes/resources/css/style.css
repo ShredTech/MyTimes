@@ -42,3 +42,14 @@ nav span {
   height: 17px;
   width: auto;
 }
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: o auto 78px auto;
+  padding-top: 116px;
+}
+
+div {
+  border: 1px solid black;
+}
